@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura Básica del Documento HTML</title>
+
+
+</head>
+<body>
+
+    <header>
+        <h1> Encabezado principal</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. Estructura Básica del Documento HTML </h2>
+            <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+           
+        </section>
+
+        <section>
+            <h2>2. Encabezados y Propiedades del Texto</h2>
+            <h1 style="font-weight: bold;">Este es un texto en negrita.</h1>
+            <h2 style="font-style: italic;">Este es un texto en cursiva.</h2>
+            <h3 style="text-decoration: underline;">Este es un texto subrayado.</h3>
+        </section>
+
+        <section>
+            <h2>Divisiones y Agrupación de Contenido</h2>
+            <div>
+                <h3>Sección 1</h3>
+                <p>Contenido de la primera sección agrupada en un <code>div</code>.</p>
+           
+            </div>
+            <div>
+                <h3>Sección 2</h3>
+                <p>Contenido de la segunda sección agrupada en un <code>div</code>.</p>
+           
+            </div>
+        </section>
+
+        <section>
+            <h2>4. Enlaces y Listas</h2>
+ 
+            <p>Visita nuestro <a href="https://www.ejemplo.com" target="_blank">sitio web</a> para más información.</p>
+           
+            <h3>Enlaces internos:</h3>
+            <ul>
+                <li><a href="#">Ir a Estructura</a></li>
+                <li><a href="#">Ir a Multimedia</a></li>
+                <li><a href="#">Ir al Formulario</a></li>
+            </ul>
+           
+            <h3>Lista desordenada:</h3>
+            <ul>
+                <li>Primer ítem de una lista desordenada</li>
+                <li>Segundo ítem de una lista desordenada</li>
+            </ul>
+           
+            <h3>Lista ordenada:</h3>
+            <ol>
+                <li>Primer ítem de una lista ordenada</li>
+                <li>Segundo ítem de una lista ordenada</li>
+            </ol>
+        </section>
+
+        <section>
+            <div style="display: flex; gap: 10px;">
+                <!-- Imagen con atributo alt descriptivo -->
+                <img src="momentos.jpeg" alt="capturando momentos" width="200">
+           
+                <!-- Video con controles de reproducción -->
+                <video width="200" controls>
+                    <source src="simpson.mp4" type="video/mp4">
+                </video>
+           
+                <!-- Archivo de audio con controles de reproducción -->
+                <audio controls>
+                    <source src="naturaleza.mp3" type="audio/mpeg">
+                </audio>
+        
+            </div>
+        </section>
+
+        <section>
+            <h2>6. Tablas</h2>
+            
+            <table border="1">
+               <thead>
+                      <tr>
+                           <th>Columna 1</th>
+                           <th>Columna 2</th>
+                         </tr>
+              </thead>
+                  <tbody>
+                      <tr>
+                          <td>Dato 1</td>
+                         <td>Dato 2</td>
+                      </tr>
+                      <tr>
+                           <td>Dato 3</td>
+                           <td>Dato 4</td>
+                        </tr>
+                  </tbody>
+         </table>
+
+
+
+        </section>
+
+        <section>
+            <h2> formularios</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="mensaje">Mensaje:</label>
+                <input type="text" id="mensaje" name="mensaje" style="width: 300px;">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Pie de página</p>
+    </footer>
+
+</body>
+</html>
